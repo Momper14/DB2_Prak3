@@ -1,0 +1,51 @@
+{
+    "definitions": {},
+    "type": "object",
+    "required": [
+        "_id",
+        "_rev",
+        "artnr",
+        "artbez",
+        "mge",
+        "preis",
+        "bpos"
+    ],
+    "properties": {
+        "_id": {
+            "type": "string"
+        },
+        "_rev": {
+            "type": "string"
+        },
+        "artnr": {
+            "type": "integer"
+        },
+        "artbez": {
+            "type": "string"
+        },
+        "mge": {
+            "type": "string"
+        },
+        "preis": {
+            "type": "number"
+        },
+        "bpos": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "required": [
+                    "bestnr",
+                    "menge"
+                ],
+                "properties": {
+                    "bestnr": {
+                        "type": "integer"
+                    },
+                    "menge": {
+                        "type": "integer"
+                    }
+                }
+            }
+        }
+    }
+}

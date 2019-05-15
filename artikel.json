@@ -1,0 +1,19 @@
+{
+    "$schema": "./ArtikelSchema.json",
+    "_id": "993caafc88f6dc318f23f039c00146d1",
+    "_rev": "1-6170bb9ca8d68f4f3cc59cbf8467e3b1",
+    "artnr": 2,
+    "artbez": "Avocado",
+    "mge": "STK",
+    "preis": 4.99,
+    "bpos": [
+        {
+            "bestnr": 1208,
+            "menge": 5
+        },
+        {
+            "bestnr": 1209,
+            "menge": 10
+        }
+    ]
+}

@@ -1,0 +1,3 @@
+BPos := TUPLE OF(bestnr:int, menge:int)
+BPosL := LIST OF(bPos:BPos)
+Artikel := TUPLE OF(artnr:int; artbez:String; mge:String; preis:int; bpos:BPosL)

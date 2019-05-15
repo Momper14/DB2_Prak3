@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CouchArtikel13",
+            "console": "integratedTerminal",
+            "request": "launch",
+            "mainClass": "couchdb.CouchArtikel13",
+            "projectName": "DB2_Prak3"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Main",
+            "request": "launch",
+            "mainClass": "jdbc.Main",
+            "projectName": "DB2_Prak3"
+        }
+    ]
+}
