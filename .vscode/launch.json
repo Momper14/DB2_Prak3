@@ -11,6 +11,7 @@
         {
             "type": "java",
             "name": "CodeLens (Launch) - Main",
+            "console": "integratedTerminal",
             "request": "launch",
             "mainClass": "jdbc.Main",
             "projectName": "DB2_Prak3"
